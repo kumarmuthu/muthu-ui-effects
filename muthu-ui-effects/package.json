@@ -1,9 +1,11 @@
 {
   "name": "muthu-ui-effects",
-  "version": "1.0.0",
+  "version": "1.0.10",
   "description": "A lightweight JavaScript library for adding dynamic UI effects",
-  "main": "dist/muthu_style_effect.js",
-  "type": "module",
+  "main": "dist/muthu_style_effect.umd.js",
+  "module": "dist/muthu_style_effect.esm.js",
+  "unpkg": "dist/muthu_style_effect.umd.js",
+  "jsdelivr": "dist/muthu_style_effect.umd.js",
   "files": [
     "dist/",
     "src/",
@@ -25,5 +27,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/kumarmuthu/muthu-ui-effects.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.47.1"
   }
 }
