@@ -22,6 +22,12 @@ You can install via **npm**:
 npm install muthu-ui-effects
 ```
 
+## Uninstallation
+
+```bash
+npm uninstall muthu-ui-effects
+```
+
 ---
 
 ## Repo Structure
