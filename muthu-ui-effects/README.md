@@ -1,4 +1,4 @@
-# UI Effects
+# Muthu UI Effects
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](#)
@@ -107,3 +107,4 @@ initUIEffects();
 ## License
 
 MIT License © 2025 [Muhtukumar S]
+
