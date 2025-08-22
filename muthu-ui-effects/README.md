@@ -19,7 +19,7 @@ This project demonstrates how to structure modular JS effects in `src/` and buil
 You can install via **npm**:
 
 ```bash
-npm install ui-effects
+npm install muthu-ui-effects
 ```
 
 ---
@@ -28,7 +28,7 @@ npm install ui-effects
 
 ```
 
-ui-effects/
+muthu-ui-effects/
 ├── README.md
 ├── dist/
 │   └── muthu_style_effect.js   # Combined effects for browser usage
@@ -82,7 +82,7 @@ You can include the effects in your project directly from your local `dist/` fil
 <footer class="footer">
   <div class="footer-content">
     <p>UI Effects Demo Footer</p>
-    <div class="watermark">UI-Effects</div>
+    <div class="watermark">muthu-ui-effects</div>
   </div>
 </footer>
 ```
