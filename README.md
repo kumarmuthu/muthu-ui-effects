@@ -4,6 +4,8 @@ A lightweight JavaScript library for adding dynamic UI effects to your web proje
 
 ---
 
+---
+
 # Muthu UI Effects
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -84,7 +86,7 @@ You can include the effects in your project directly from your local `dist/` fil
 
 ```html
 <script type="module">
-  import { initUIEffects } from 'https://unpkg.com/muthu-ui-effects@1.0.3/dist/muthu_style_effect.js';
+  import { initUIEffects } from 'https://unpkg.com/muthu-ui-effects@1.0.10/dist/muthu_style_effect.js';
   initUIEffects();
 </script>
 ```
@@ -93,7 +95,7 @@ You can include the effects in your project directly from your local `dist/` fil
 
 ```html
 <script type="module">
-  import { initUIEffects } from 'https://cdn.jsdelivr.net/npm/muthu-ui-effects@1.0.3/dist/muthu_style_effect.js';
+  import { initUIEffects } from 'https://cdn.jsdelivr.net/npm/muthu-ui-effects@1.0.10/dist/muthu_style_effect.js';
   initUIEffects();
 </script>
 ```
@@ -149,5 +151,8 @@ initUIEffects();
 ## License
 
 MIT License © 2025 [Muthukumar S]
+
+---
+
 
 ---
