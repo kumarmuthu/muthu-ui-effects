@@ -33,21 +33,22 @@ npm uninstall muthu-ui-effects
 ## Repo Structure
 
 ```
-
 muthu-ui-effects/
 ├── README.md
 ├── dist/
-│   └── muthu_style_effect.js   # Combined effects for browser usage
+│   ├── muthu_style_effect.js      # Original combined JS for browser usage
+│   ├── muthu_style_effect.esm.js  # ESM build for import
+│   └── muthu_style_effect.umd.js  # UMD build for <script> usage
 ├── examples/
-│   └── index.html              # Demo page using the effects
+│   └── index.html                 # Demo page using the effects
+├── rollup.config.js               # Rollup build configuration
 └── src/
-├── editor-style.js
-├── flash-msg-effect.js
-├── footer-watermark-effect.js
-├── marquee-effect.js
-└── nav-effect.js
-
-````
+    ├── editor-style.js
+    ├── flash-msg-effect.js
+    ├── footer-watermark-effect.js
+    ├── marquee-effect.js
+    └── nav-effect.js
+```
 
 ---
 
@@ -62,15 +63,44 @@ You can include the effects in your project directly from your local `dist/` fil
   import { initUIEffects } from './dist/muthu_style_effect.js';
   initUIEffects();
 </script>
-````
+```
+
+**CDN (Latest code):**
+
+```html
+<script type="module">
+  import { initUIEffects } from 'https://cdn.jsdelivr.net/npm/muthu-ui-effects/dist/muthu_style_effect.js';
+  initUIEffects();
+</script>
+```
+
+**CDN (Unpkg, specific version):**
+
+```html
+<script type="module">
+  import { initUIEffects } from 'https://unpkg.com/muthu-ui-effects@1.0.3/dist/muthu_style_effect.js';
+  initUIEffects();
+</script>
+```
+
+**CDN (jsDelivr, specific version):**
+
+```html
+<script type="module">
+  import { initUIEffects } from 'https://cdn.jsdelivr.net/npm/muthu-ui-effects@1.0.3/dist/muthu_style_effect.js';
+  initUIEffects();
+</script>
+```
 
 ---
-
-## Usage
 
 ### HTML Example
 
 ```html
+<script type="module">
+  import { initUIEffects } from 'https://cdn.jsdelivr.net/npm/muthu-ui-effects/dist/muthu_style_effect.js';
+  initUIEffects();
+</script>
 <div class="container">
   <div class="marquee">
     <h1 class="scroll">UI Effects Project: Dynamic Navigation & Marquee Demo</h1>
@@ -93,10 +123,10 @@ You can include the effects in your project directly from your local `dist/` fil
 </footer>
 ```
 
-**JavaScript Initialization:**
+**JavaScript Initialization (local or CDN):**
 
 ```js
-import { initUIEffects } from './dist/muthu_style_effect.js';
+import { initUIEffects } from './dist/muthu_style_effect.js';  // or CDN URL
 initUIEffects();
 ```
 
@@ -112,5 +142,6 @@ initUIEffects();
 
 ## License
 
-MIT License © 2025 [Muhtukumar S]
+MIT License © 2025 [Muthukumar S]
 
+---
