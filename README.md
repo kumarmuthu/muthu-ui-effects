@@ -7,7 +7,7 @@ A lightweight JavaScript library for adding dynamic UI effects to your web proje
 # Muthu UI Effects
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](#)
+[![npm version](https://img.shields.io/npm/v/muthu-ui-effects.svg?color=blue)](https://www.npmjs.com/package/muthu-ui-effects)
 
 
 A lightweight JavaScript library for adding dynamic UI effects to your web projects, including:
